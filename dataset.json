@@ -1,0 +1,667 @@
+{
+  "entities": {
+    "errorLanguage": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "syntax"
+        },
+        {
+          "synonyms": [
+            "semantical"
+          ],
+          "value": "semantic"
+        },
+        {
+          "synonyms": [],
+          "value": "logicial"
+        },
+        {
+          "synonyms": [
+            "ZeroDivisionError",
+            "divisionByZero",
+            "division by zero",
+            "division per zero"
+          ],
+          "value": "ZeroDivision"
+        },
+        {
+          "synonyms": [
+            "compile"
+          ],
+          "value": "CompileError"
+        },
+        {
+          "synonyms": [
+            "parse"
+          ],
+          "value": "ParseError"
+        },
+        {
+          "synonyms": [
+            "type"
+          ],
+          "value": "TypeError"
+        },
+        {
+          "synonyms": [],
+          "value": "exception"
+        },
+        {
+          "synonyms": [
+            "arithmetic"
+          ],
+          "value": "ArithmeticError"
+        },
+        {
+          "synonyms": [
+            "name"
+          ],
+          "value": "NameError"
+        },
+        {
+          "synonyms": [
+            "value"
+          ],
+          "value": "ValueError"
+        },
+        {
+          "synonyms": [
+            "index"
+          ],
+          "value": "IndexError"
+        },
+        {
+          "synonyms": [
+            "key"
+          ],
+          "value": "KeyError"
+        },
+        {
+          "synonyms": [
+            "import"
+          ],
+          "value": "ImportError"
+        },
+        {
+          "synonyms": [
+            "ModuleNotFound",
+            "module not found"
+          ],
+          "value": "ModuleNotFoundError"
+        },
+        {
+          "synonyms": [
+            "unicode translate"
+          ],
+          "value": "UnicodeTranslateError"
+        },
+        {
+          "synonyms": [
+            "unicode decode"
+          ],
+          "value": "UnicodeDecodeError"
+        },
+        {
+          "synonyms": [
+            "unicode encode"
+          ],
+          "value": "UnicodeEncodeError"
+        },
+        {
+          "synonyms": [],
+          "value": "UnicodeError"
+        },
+        {
+          "synonyms": [
+            "unbound local"
+          ],
+          "value": "UnboundLocalError"
+        },
+        {
+          "synonyms": [
+            "system exit"
+          ],
+          "value": "SystemExit"
+        },
+        {
+          "synonyms": [
+            "system error"
+          ],
+          "value": "SystemError"
+        },
+        {
+          "synonyms": [
+            "tab error"
+          ],
+          "value": "TabError"
+        },
+        {
+          "synonyms": [
+            "identation"
+          ],
+          "value": "IndentationError"
+        },
+        {
+          "synonyms": [
+            "runtime"
+          ],
+          "value": "RuntimeError"
+        },
+        {
+          "synonyms": [
+            "reference"
+          ],
+          "value": "ReferenceError"
+        },
+        {
+          "synonyms": [
+            "overflow"
+          ],
+          "value": "OverflowError"
+        },
+        {
+          "synonyms": [],
+          "value": "OSError"
+        },
+        {
+          "synonyms": [
+            "assertion"
+          ],
+          "value": "AssertionError"
+        },
+        {
+          "synonyms": [],
+          "value": "MemoryError"
+        },
+        {
+          "synonyms": [],
+          "value": "expected"
+        },
+        {
+          "synonyms": [],
+          "value": "Unclosed String Literal"
+        },
+        {
+          "synonyms": [],
+          "value": "Illegal Start of an Expression"
+        },
+        {
+          "synonyms": [],
+          "value": "Cannot Find Symbol"
+        },
+        {
+          "synonyms": [],
+          "value": "Incompatible Types"
+        },
+        {
+          "synonyms": [],
+          "value": "Invalid Method Declaration"
+        },
+        {
+          "synonyms": [],
+          "value": "Missing Return Statement"
+        },
+        {
+          "synonyms": [],
+          "value": "Possible Loss of Precision"
+        },
+        {
+          "synonyms": [],
+          "value": "Reached End of File While Parsing"
+        },
+        {
+          "synonyms": [
+            "Unreachable Statment"
+          ],
+          "value": "Unreachable Statement"
+        },
+        {
+          "synonyms": [],
+          "value": "Missing Return Value"
+        },
+        {
+          "synonyms": [],
+          "value": "Can't convert"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "helpLanguage": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "learn"
+        },
+        {
+          "synonyms": [],
+          "value": "tutorial"
+        },
+        {
+          "synonyms": [],
+          "value": "guide"
+        },
+        {
+          "synonyms": [],
+          "value": "problem"
+        },
+        {
+          "synonyms": [],
+          "value": "help"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "language": {
+      "automatically_extensible": true,
+      "data": [],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "tutorialLanguage": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "php"
+        },
+        {
+          "synonyms": [
+            "js"
+          ],
+          "value": "javascript"
+        },
+        {
+          "synonyms": [
+            "html5"
+          ],
+          "value": "html"
+        },
+        {
+          "synonyms": [],
+          "value": "css"
+        },
+        {
+          "synonyms": [
+            "py",
+            "py3"
+          ],
+          "value": "python"
+        },
+        {
+          "synonyms": [],
+          "value": "rust"
+        },
+        {
+          "synonyms": [],
+          "value": "java"
+        },
+        {
+          "synonyms": [
+            "C#"
+          ],
+          "value": "Csharp"
+        },
+        {
+          "synonyms": [],
+          "value": "C++"
+        },
+        {
+          "synonyms": [],
+          "value": "C"
+        },
+        {
+          "synonyms": [],
+          "value": "lua"
+        },
+        {
+          "synonyms": [],
+          "value": "shell"
+        },
+        {
+          "synonyms": [],
+          "value": "go"
+        },
+        {
+          "synonyms": [
+            "ts"
+          ],
+          "value": "typescript"
+        },
+        {
+          "synonyms": [],
+          "value": "ruby"
+        },
+        {
+          "synonyms": [],
+          "value": "kotlin"
+        },
+        {
+          "synonyms": [],
+          "value": "powershell"
+        },
+        {
+          "synonyms": [],
+          "value": "bash"
+        },
+        {
+          "synonyms": [],
+          "value": "perl"
+        },
+        {
+          "synonyms": [
+            "dotnet",
+            ".net"
+          ],
+          "value": "microsoft dotnet"
+        },
+        {
+          "synonyms": [],
+          "value": "sql"
+        },
+        {
+          "synonyms": [],
+          "value": "assembly"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "error": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "I have the error "
+            },
+            {
+              "entity": "errorLanguage",
+              "slot_name": "error",
+              "text": "syntax error"
+            },
+            {
+              "text": " problem on "
+            },
+            {
+              "entity": "language",
+              "slot_name": "language",
+              "text": "php"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How to resolve "
+            },
+            {
+              "entity": "errorLanguage",
+              "slot_name": "error",
+              "text": "parseError"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "language",
+              "slot_name": "language",
+              "text": "java"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I need help to fix "
+            },
+            {
+              "entity": "errorLanguage",
+              "slot_name": "error",
+              "text": "exception"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "language",
+              "slot_name": "language",
+              "text": "php"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I have a "
+            },
+            {
+              "entity": "errorLanguage",
+              "slot_name": "error",
+              "text": "syntax error"
+            },
+            {
+              "text": " problem with "
+            },
+            {
+              "entity": "language",
+              "slot_name": "language",
+              "text": "php"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How can I resolve the problem "
+            },
+            {
+              "entity": "errorLanguage",
+              "slot_name": "error",
+              "text": "NameError"
+            },
+            {
+              "text": " on "
+            },
+            {
+              "entity": "language",
+              "slot_name": "language",
+              "text": "python"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "On "
+            },
+            {
+              "entity": "language",
+              "slot_name": "language",
+              "text": "rust"
+            },
+            {
+              "text": " I got "
+            },
+            {
+              "entity": "errorLanguage",
+              "slot_name": "error",
+              "text": "KeyError"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is "
+            },
+            {
+              "entity": "errorLanguage",
+              "slot_name": "error",
+              "text": "KeyError"
+            }
+          ]
+        }
+      ]
+    },
+    "help": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "a "
+            },
+            {
+              "entity": "helpLanguage",
+              "slot_name": "help",
+              "text": "tutorial"
+            },
+            {
+              "text": " for the language "
+            },
+            {
+              "entity": "language",
+              "slot_name": "language",
+              "text": "php"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I have a "
+            },
+            {
+              "entity": "helpLanguage",
+              "slot_name": "help",
+              "text": "problem"
+            },
+            {
+              "text": " with the language "
+            },
+            {
+              "entity": "language",
+              "slot_name": "language",
+              "text": "java"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I have an error with "
+            },
+            {
+              "entity": "language",
+              "slot_name": "language",
+              "text": "html"
+            }
+          ]
+        }
+      ]
+    },
+    "language": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "what is "
+            },
+            {
+              "entity": "tutorialLanguage",
+              "slot_name": "language",
+              "text": "php"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how to develop in "
+            },
+            {
+              "entity": "tutorialLanguage",
+              "slot_name": "language",
+              "text": "java"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how to code in the language "
+            },
+            {
+              "entity": "tutorialLanguage",
+              "slot_name": "language",
+              "text": "javascript"
+            },
+            {
+              "text": " ?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "learn the programming language "
+            },
+            {
+              "entity": "tutorialLanguage",
+              "slot_name": "language",
+              "text": "html"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "which "
+            },
+            {
+              "entity": "tutorialLanguage",
+              "slot_name": "language",
+              "text": "perl"
+            },
+            {
+              "text": " choose to"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to learn "
+            },
+            {
+              "entity": "tutorialLanguage",
+              "slot_name": "language",
+              "text": "java"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the language "
+            },
+            {
+              "entity": "tutorialLanguage",
+              "slot_name": "language",
+              "text": "html"
+            },
+            {
+              "text": " ?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

@@ -1,0 +1,269 @@
+{
+  "entities": {
+    "helpEntity": {
+      "automatically_extensible": true,
+      "data": [],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "helpType": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "learn"
+        },
+        {
+          "synonyms": [],
+          "value": "tutorial"
+        },
+        {
+          "synonyms": [],
+          "value": "guide"
+        },
+        {
+          "synonyms": [],
+          "value": "error"
+        },
+        {
+          "synonyms": [],
+          "value": "problem"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "language": {
+      "automatically_extensible": true,
+      "data": [],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "languageEntity": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "php"
+        },
+        {
+          "synonyms": [
+            "js"
+          ],
+          "value": "javascript"
+        },
+        {
+          "synonyms": [
+            "html5"
+          ],
+          "value": "html"
+        },
+        {
+          "synonyms": [],
+          "value": "css"
+        },
+        {
+          "synonyms": [
+            "py",
+            "py3"
+          ],
+          "value": "python"
+        },
+        {
+          "synonyms": [],
+          "value": "rust"
+        },
+        {
+          "synonyms": [],
+          "value": "java"
+        },
+        {
+          "synonyms": [
+            "C#"
+          ],
+          "value": "Csharp"
+        },
+        {
+          "synonyms": [],
+          "value": "C++"
+        },
+        {
+          "synonyms": [],
+          "value": "C"
+        },
+        {
+          "synonyms": [],
+          "value": "lua"
+        },
+        {
+          "synonyms": [],
+          "value": "shell"
+        },
+        {
+          "synonyms": [],
+          "value": "go"
+        },
+        {
+          "synonyms": [
+            "ts"
+          ],
+          "value": "typescript"
+        },
+        {
+          "synonyms": [],
+          "value": "ruby"
+        },
+        {
+          "synonyms": [],
+          "value": "kotlin"
+        },
+        {
+          "synonyms": [],
+          "value": "powershell"
+        },
+        {
+          "synonyms": [],
+          "value": "bash"
+        },
+        {
+          "synonyms": [],
+          "value": "perl"
+        },
+        {
+          "synonyms": [
+            "dotnet",
+            ".net"
+          ],
+          "value": "microsoft dotnet"
+        },
+        {
+          "synonyms": [],
+          "value": "sql"
+        },
+        {
+          "synonyms": [],
+          "value": "assembly"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "help": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "a "
+            },
+            {
+              "entity": "helpEntity",
+              "slot_name": "help",
+              "text": "tutorial"
+            },
+            {
+              "text": " for the language "
+            },
+            {
+              "entity": "language",
+              "slot_name": "language",
+              "text": "php"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I have a "
+            },
+            {
+              "entity": "helpEntity",
+              "slot_name": "help",
+              "text": "problem"
+            },
+            {
+              "text": " with the language "
+            },
+            {
+              "entity": "helpEntity",
+              "slot_name": "help",
+              "text": "help"
+            }
+          ]
+        }
+      ]
+    },
+    "language": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "what is "
+            },
+            {
+              "entity": "languageEntity",
+              "slot_name": "language",
+              "text": "php"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how to develop in "
+            },
+            {
+              "entity": "languageEntity",
+              "slot_name": "language",
+              "text": "java"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how to code in the language "
+            },
+            {
+              "entity": "languageEntity",
+              "slot_name": "language",
+              "text": "javascript"
+            },
+            {
+              "text": " ?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "learn the programming language "
+            },
+            {
+              "entity": "languageEntity",
+              "slot_name": "language",
+              "text": "html"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "which "
+            },
+            {
+              "entity": "languageEntity",
+              "slot_name": "language",
+              "text": "perl"
+            },
+            {
+              "text": " choose to"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

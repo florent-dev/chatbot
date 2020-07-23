@@ -1,0 +1,133 @@
+# language intent
+---
+type: intent
+name: language
+slots:
+  - name: language
+    entity: tutorialLanguage
+utterances:
+  - what is [language](php)
+  - how to develop in [language](java)
+  - how to code in the language [language](javascript) ?
+  - learn the programming language [language](html)
+  - which [language](perl) choose to
+  - I want to learn [language](java)
+  - what is the language [language](html) ?
+
+# help intent
+---
+type: intent
+name: help
+slots:
+  - name: help
+    entity: helpLanguage
+utterances:
+  - a [help](tutorial) for the language [language](php)
+  - I have a [help](problem) with the language [language](java)
+  - I have an error with [language](html)
+
+# error intent
+---
+type: intent
+name: error
+slots:
+  - name: error
+    entity: errorLanguage
+utterances:
+  - I have the error [error](syntax error) problem on [language](php)
+  - How to resolve [error](parseError) in [language](java)
+  - I need help to fix [error](exception) in [language](php)
+  - I have a [error](syntax error) problem with [language](php)
+  - How can I resolve the problem [error](NameError) on [language](python)
+  - On [language](rust) I got [error](KeyError)
+  - What is [error](KeyError)
+
+# help entity
+---
+type: entity
+name: helpLanguage
+automatically_extensible: no
+values:
+- learn
+- tutorial
+- guide
+- problem
+- help
+
+# language entity
+---
+type: entity
+name: tutorialLanguage
+automatically_extensible: yes
+values:
+- php
+- [javascript, js]
+- [html, html5]
+- css
+- [python, py, py3]
+- rust
+- java
+- [Csharp, C#]
+- C++
+- C
+- lua
+- shell
+- go
+- [typescript, ts]
+- ruby
+- kotlin
+- powershell
+- bash
+- perl
+- [microsoft dotnet, dotnet, .net]
+- sql
+- assembly
+
+# basic errors
+---
+type: entity
+name: errorLanguage
+automatically_extensible: yes
+values:
+- syntax
+- [semantic, semantical]
+- logicial
+- [ZeroDivision, ZeroDivisionError, divisionByZero, division by zero, division per zero]
+- [CompileError, compile]
+- [ParseError, parse]
+- [TypeError, type]
+- exception
+- [ArithmeticError, arithmetic]
+- [NameError, name]
+- [ValueError, value]
+- [IndexError, index]
+- [KeyError, key]
+- [ImportError, import]
+- [ModuleNotFoundError, ModuleNotFound, module not found]
+- [UnicodeTranslateError, unicode translate]
+- [UnicodeDecodeError, unicode decode]
+- [UnicodeEncodeError, unicode encode]
+- [UnicodeError]
+- [UnboundLocalError, unbound local]
+- [SystemExit, system exit]
+- [SystemError, system error]
+- [TabError, tab error]
+- [IndentationError, identation]
+- [RuntimeError, runtime]
+- [ReferenceError, reference]
+- [OverflowError, overflow]
+- OSError
+- [AssertionError, assertion]
+- MemoryError
+- expected
+- Unclosed String Literal
+- Illegal Start of an Expression
+- Cannot Find Symbol
+- Incompatible Types
+- Invalid Method Declaration
+- Missing Return Statement
+- Possible Loss of Precision
+- Reached End of File While Parsing
+- [Unreachable Statement, Unreachable Statment]
+- Missing Return Value
+- Can't convert
